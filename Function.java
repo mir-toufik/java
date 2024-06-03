@@ -2,9 +2,9 @@
 import java.util.*;
 
 public class Function {
-    public static int calculatesum(int a,int b){
-        int sum = a + b;
-        return sum;
+    public static int calculateproduct(int a,int b){
+        
+        return a*b;
     }
 
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Function {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        int sum = calculatesum(a, b);
-        System.out.println("sum of 2 numbers is :"+ sum);
+        
+        System.out.println("product of 2 numbers is :"+calculateproduct(a, b));
     }
 }
